@@ -1,0 +1,32 @@
+.section-container {
+    background-image: url('section-1.png');
+    background-size: cover;
+    padding: 50px 0;
+    text-align: center;
+    height: 800px;
+    color: rgb(0, 0, 0);
+}
+
+.about-container {
+    padding: 50px 0;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.about-text {
+    padding: 20px;
+}
+
+.council-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-container{
+    background-color: bisque;
+}
+
+.contact-container{
+    background-color: rgb(89, 52, 52);
+    color: azure;
+    padding-top: 25px;
+}
