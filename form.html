@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Form</title>
+    <link rel="stylesheet" href="./formstyle.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-color: rgb(228, 214, 175);">
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Complaint Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="branch">Branch</label>
+                <select class="form-control" id="branch" required>
+                    <option value="">Select Branch</option>
+                    <option value="CSE">Computer Science and Engineering</option>
+                    <option value="ECE">Electronics and Communication Engineering</option>
+                    <option value="EE">Electrical Engineering</option>
+                    <option value="ME">Mechanical Engineering</option>
+                    <option value="CE">Civil Engineering</option>
+                    <option value="CHE">Chemical Engineering</option>
+                    <option value="Arch">Architecture</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="roll">Roll</label>
+                <input type="text" class="form-control" id="roll" placeholder="Enter your roll number" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number</label>
+                <input type="text" class="form-control" id="number" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="complaintType">Complaint Type</label>
+                <select class="form-control" id="complaintType" required>
+                    <option value="">Select Complaint Type</option>
+                    <option value="Hostel">Hostel</option>
+                    <option value="Mess">Mess</option>
+                    <option value="Infrastructure">Infrastructure</option>
+                    <option value="Faculty">Faculty</option>
+                    <option value="Sexual Harassment">Sexual Harassment</option>
+                    <option value="Internet/Wifi">Internet/Wifi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="complaintText">Complaint</label>
+                <textarea class="form-control" id="complaintText" rows="5" placeholder="Enter your complaint" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

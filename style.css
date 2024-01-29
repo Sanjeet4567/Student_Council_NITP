@@ -30,3 +30,16 @@
     color: azure;
     padding-top: 25px;
 }
+
+.team-container{
+    padding-top: 30px;
+}
+
+.profiles{
+    padding: 40px 0;
+}
+
+.img-profile{
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
